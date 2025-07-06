@@ -6,7 +6,7 @@ Je suis Aouida Wajih, étudiant en M2 MIASHS, passionné par la data science, l�
 
 ### Website Preview
 #### Home Page
-<img src="website_images/home_page.gif" width="900">
+<img src="website_images/home_page.png" width="900">
 
 
 #### About Page
