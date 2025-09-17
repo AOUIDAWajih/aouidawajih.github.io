@@ -5,7 +5,7 @@
 Je suis **Aouida Wajih**, étudiant en **M2 MIASHS**, passionné par la Data Science, l’Intelligence Artificielle et le développement web.  
 Ce site est mon portfolio personnel que j’ai conçu pour présenter mes compétences, mes projets et mon parcours.  
 
-👉 [Accéder au portfolio](https://wajihaouida.github.io/)
+👉 [Accéder au portfolio](https://aouidawajih.github.io/)
 
 ---
 
@@ -49,7 +49,7 @@ Ce site est mon portfolio personnel que j’ai conçu pour présenter mes compé
 I am **Aouida Wajih**, a **Master’s student in MIASHS**, passionate about Data Science, Artificial Intelligence, and Web Development.  
 This is my personal portfolio website, designed to showcase my skills, projects, and academic/professional background.  
 
-👉 [Visit Portfolio](https://wajihaouida.github.io/)
+👉 [Visit Portfolio](https://aouidawajih.github.io/)
 
 ---
 
