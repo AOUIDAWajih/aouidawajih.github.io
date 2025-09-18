@@ -1098,3 +1098,21 @@ section .container {
 }
 
 
+/*--------------------------------------------------------------
+# Language Switch - Mobile Adjustment
+--------------------------------------------------------------*/
+@media (max-width: 992px) {
+  .lang-switch {
+    position: relative;      /* plus d’absolute pour éviter superposition */
+    float: right;            /* reste à droite */
+    margin: 0 15px;          /* espacement depuis le bord */
+    display: inline-block;    /* s’intègre dans le menu */
+    top: auto;               /* annule top si défini avant */
+    right: auto;             /* annule right si défini avant */
+    z-index: 9999;           /* au-dessus du menu mobile */
+  }
+
+  .lang-switch a {
+    margin-left: 5px;        /* espacement entre FR et EN */
+  }
+}
