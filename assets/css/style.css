@@ -1110,6 +1110,8 @@ section .container {
 }
 
 .lang-switch a {
+  color: #fff;
+  font-weight: bold;
   margin-left: 10px;
   text-decoration: none;
 }
@@ -1117,25 +1119,30 @@ section .container {
 /* Ajustements pour mobile (max-width: 992px) */
 @media (max-width: 992px) {
   .lang-switch {
-    position: relative; /* Supprime le positionnement absolu sur mobile */
+    position: relative; /* Passe en position relative sur mobile */
     top: auto;
     right: auto;
-    float: none; /* Annule le float pour mobile */
-    margin: 10px 0 0; /* Espacement en haut et réinitialisation */
-    text-align: right; /* Aligne à droite sur mobile */
-    display: block; /* Assure une ligne propre */
+    margin: 10px 0 0 auto; /* Aligne à droite avec un espacement en haut */
+    text-align: right;
+    display: block;
   }
 
   .lang-switch a {
-    margin-left: 5px; /* Réduit l'espacement entre FR et EN sur mobile */
+    margin-left: 5px; /* Réduit l'espacement entre FR et EN */
   }
 
   #header h2 {
-    margin-top: 10px; /* Ajoute un espace pour éviter le chevauchement avec le texte animé */
+    margin-top: 20px; /* Augmente l'espacement pour éviter le chevauchement */
   }
 
   #header {
-    height: auto; /* Permet une adaptation dynamique */
-    min-height: 100vh; /* Garde une hauteur minimale */
+    height: auto; /* Adaptation dynamique */
+    min-height: 100vh; /* Hauteur minimale */
+    position: relative; /* Assure un contexte pour position: absolute */
+  }
+
+  #header .container {
+    position: relative; /* Contexte pour .lang-switch sur desktop */
+    padding-top: 60px; /* Ajoute un padding pour éviter que les boutons ne soient masqués */
   }
 }
