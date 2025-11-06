@@ -309,22 +309,15 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-section {
-  overflow: hidden;
-  position: absolute;
-  width: 100%;
-  top: 140px;
-  bottom: 100%;
-  opacity: 0;
-  z-index: 2;
+@media (max-width: 768px) {
+  section {
+    position: relative !important; /* plus absolute */
+    top: auto !important;
+    bottom: auto !important;
+    opacity: 1 !important; /* force affichage */
+  }
 }
 
-section.section-show {
-  top: 70px;
-  bottom: auto;
-  opacity: 1;
-  padding-bottom: 0px;
-}
 
 section .container {
   background: rgba(0, 0, 0, 0);
